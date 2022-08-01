@@ -74,12 +74,12 @@ describe('Ellenőrzések', () => {
             .should('have.css', 'appearance', 'none');
     });
     
-    /* it('8. szelektor', () => {
+     /*it('8. szelektor', () => {
         cy.visit('');
         cy.get('body .menu__hamburger').focus();
         cy.get('body .menu__hamburger:focus')
             .should('have.css', 'outline', 'none');
-    }); */
+    });*/ 
     
     it('9. szelektor', () => {
         cy.visit('');
